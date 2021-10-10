@@ -64,3 +64,8 @@ uselib
 uselib_track
 darknet
 vcpkg/
+
+# spiderkiller
+results/
+yolov4.conv.137
+yolov4.weights
