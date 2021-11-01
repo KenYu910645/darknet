@@ -1,0 +1,516 @@
+ CUDNN_HALF=1 
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+bdd100k
+net.optimized_memory = 0 
+mini_batch = 2, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 0 K-images (0 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.949, Decay: 0.0005
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 142.39 MB 
+ CUDA allocate done! 
+Loaded: 0.000068 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 1: 1934.456665, 1934.456665 avg loss, 0.000000 rate, 2.622205 seconds, 64 images, -1.000000 hours left
+Loaded: 0.000064 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 2: 1939.157715, 1934.926758 avg loss, 0.000000 rate, 2.538288 seconds, 128 images, 5.826600 hours left
+Loaded: 0.000054 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 3: 1933.703003, 1934.804443 avg loss, 0.000000 rate, 2.460235 seconds, 192 images, 5.824729 hours left
+Loaded: 0.000073 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 4: 1935.701538, 1934.894165 avg loss, 0.000000 rate, 2.491799 seconds, 256 images, 5.821135 hours left
+Loaded: 0.000067 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 5: 1934.483521, 1934.853149 avg loss, 0.000000 rate, 2.476218 seconds, 320 images, 5.818271 hours left
+Loaded: 0.000066 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 6: 1938.066895, 1935.174561 avg loss, 0.000000 rate, 2.593754 seconds, 384 images, 5.815083 hours left
+Loaded: 0.000062 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 7: 1937.305176, 1935.387573 avg loss, 0.000000 rate, 2.485693 seconds, 448 images, 5.814530 hours left
+Loaded: 0.000068 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 8: 1935.059082, 1935.354736 avg loss, 0.000000 rate, 2.493696 seconds, 512 images, 5.811576 hours left
+Loaded: 0.000072 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 9: 1934.229004, 1935.242188 avg loss, 0.000000 rate, 2.463486 seconds, 576 images, 5.808822 hours left
+Loaded: 0.000057 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 10: 1934.007446, 1935.118652 avg loss, 0.000000 rate, 2.470073 seconds, 640 images, 5.805419 hours left
+Resizing, random_coef = 1.40 
+
+ 544 x 544 
+ try to allocate additional workspace_size = 114.05 MB 
+ CUDA allocate done! 
+Loaded: 0.000075 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 11: 1550.306396, 1896.637451 avg loss, 0.000000 rate, 2.229105 seconds, 704 images, 5.802188 hours left
+Loaded: 0.000054 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 12: 1553.038208, 1862.277588 avg loss, 0.000000 rate, 2.242170 seconds, 768 images, 5.793636 hours left
+Loaded: 0.000085 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 13: 1550.510376, 1831.100830 avg loss, 0.000000 rate, 2.208264 seconds, 832 images, 5.785453 hours left
+Loaded: 0.000054 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 14: 1554.425049, 1803.433228 avg loss, 0.000000 rate, 2.250005 seconds, 896 images, 5.776593 hours left
+Loaded: 0.000062 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 15: 1546.500122, 1777.739868 avg loss, 0.000000 rate, 2.150835 seconds, 960 images, 5.768742 hours left
+Loaded: 0.000062 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 16: 1554.792114, 1755.445068 avg loss, 0.000000 rate, 2.291535 seconds, 1024 images, 5.758763 hours left
+Loaded: 0.000068 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 17: 1551.813843, 1735.081909 avg loss, 0.000000 rate, 2.219600 seconds, 1088 images, 5.751998 hours left
+Loaded: 0.000067 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 18: 1551.204224, 1716.694092 avg loss, 0.000000 rate, 2.230028 seconds, 1152 images, 5.743700 hours left
+Loaded: 0.000070 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 19: 1553.994263, 1700.424072 avg loss, 0.000000 rate, 2.279309 seconds, 1216 images, 5.735709 hours left
+Loaded: 0.000067 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 20: 1551.544556, 1685.536133 avg loss, 0.000000 rate, 2.233314 seconds, 1280 images, 5.728885 hours left
+Resizing, random_coef = 1.40 
+
+ 320 x 320 
+ try to allocate additional workspace_size = 40.67 MB 
+ CUDA allocate done! 
+Loaded: 0.000063 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 21: 545.976135, 1571.580078 avg loss, 0.000000 rate, 1.052584 seconds, 1344 images, 5.721104 hours left
+Loaded: 0.000065 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 22: 545.072205, 1468.929321 avg loss, 0.000000 rate, 1.047062 seconds, 1408 images, 5.687224 hours left
+Loaded: 0.000068 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 23: 546.651062, 1376.701538 avg loss, 0.000000 rate, 1.050313 seconds, 1472 images, 5.653558 hours left
+Loaded: 0.000062 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 24: 543.353821, 1293.366821 avg loss, 0.000000 rate, 1.048495 seconds, 1536 images, 5.620297 hours left
+Loaded: 0.000107 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 25: 543.385010, 1218.368652 avg loss, 0.000000 rate, 1.061316 seconds, 1600 images, 5.587326 hours left
+Loaded: 0.000078 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 26: 547.329895, 1151.264771 avg loss, 0.000000 rate, 1.060434 seconds, 1664 images, 5.554967 hours left
+Loaded: 0.000074 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 27: 542.318726, 1090.370117 avg loss, 0.000000 rate, 1.017252 seconds, 1728 images, 5.522908 hours left
+Loaded: 0.000064 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 28: 544.362732, 1035.769409 avg loss, 0.000000 rate, 1.062620 seconds, 1792 images, 5.490211 hours left
+Loaded: 0.000066 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 29: 544.361938, 986.628662 avg loss, 0.000000 rate, 1.053858 seconds, 1856 images, 5.458842 hours left
+Loaded: 0.000063 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 30: 543.344177, 942.300232 avg loss, 0.000000 rate, 0.996012 seconds, 1920 images, 5.427589 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 57.21 MB 
+ CUDA allocate done! 
+Loaded: 0.000066 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 31: 783.006653, 926.370850 avg loss, 0.000000 rate, 1.227251 seconds, 1984 images, 5.395366 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 32: 780.428101, 911.776550 avg loss, 0.000000 rate, 1.206266 seconds, 2048 images, 5.368581 hours left
+Loaded: 0.000040 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 33: 775.201660, 898.119080 avg loss, 0.000000 rate, 1.193219 seconds, 2112 images, 5.341595 hours left
+Loaded: 0.000052 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 34: 779.634277, 886.270630 avg loss, 0.000000 rate, 1.212128 seconds, 2176 images, 5.314587 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 35: 779.414734, 875.585022 avg loss, 0.000000 rate, 1.221907 seconds, 2240 images, 5.288264 hours left
+Loaded: 0.000055 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 36: 774.161682, 865.442688 avg loss, 0.000000 rate, 1.195506 seconds, 2304 images, 5.262418 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 37: 779.716492, 856.870056 avg loss, 0.000000 rate, 1.244815 seconds, 2368 images, 5.236243 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 38: 771.689270, 848.351990 avg loss, 0.000000 rate, 1.195482 seconds, 2432 images, 5.211416 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 39: 779.195557, 841.436340 avg loss, 0.000000 rate, 1.214683 seconds, 2496 images, 5.185744 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 40: 774.367676, 834.729492 avg loss, 0.000000 rate, 1.182100 seconds, 2560 images, 5.160749 hours left
+Resizing, random_coef = 1.40 
+
+ 416 x 416 
+ try to allocate additional workspace_size = 67.04 MB 
+ CUDA allocate done! 
+Loaded: 0.000065 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 41: 900.947205, 841.351257 avg loss, 0.000000 rate, 1.250750 seconds, 2624 images, 5.135281 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 42: 904.661560, 847.682312 avg loss, 0.000000 rate, 1.269842 seconds, 2688 images, 5.111582 hours left
+Loaded: 0.000048 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 43: 903.360718, 853.250122 avg loss, 0.000000 rate, 1.289511 seconds, 2752 images, 5.088538 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 44: 898.082642, 857.733398 avg loss, 0.000000 rate, 1.250983 seconds, 2816 images, 5.066156 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 45: 899.447021, 861.904785 avg loss, 0.000000 rate, 1.300522 seconds, 2880 images, 5.043142 hours left
+Loaded: 0.000040 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 46: 894.524353, 865.166748 avg loss, 0.000000 rate, 1.258592 seconds, 2944 images, 5.021450 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 47: 895.556885, 868.205750 avg loss, 0.000000 rate, 1.271307 seconds, 3008 images, 4.999045 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 48: 893.027954, 870.687988 avg loss, 0.000000 rate, 1.278329 seconds, 3072 images, 4.977141 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 49: 894.919495, 873.111145 avg loss, 0.000000 rate, 1.297015 seconds, 3136 images, 4.955608 hours left
+Loaded: 0.000045 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 50: 887.815369, 874.581543 avg loss, 0.000000 rate, 1.265671 seconds, 3200 images, 4.934699 hours left
+Resizing, random_coef = 1.40 
+
+ 480 x 480 
+ try to allocate additional workspace_size = 89.06 MB 
+ CUDA allocate done! 
+Loaded: 0.000062 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 51: 1171.527466, 904.276123 avg loss, 0.000000 rate, 1.488294 seconds, 3264 images, 4.913304 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 52: 1170.736084, 930.922119 avg loss, 0.000000 rate, 1.530191 seconds, 3328 images, 4.897035 hours left
+Loaded: 0.000046 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 53: 1160.660522, 953.895935 avg loss, 0.000000 rate, 1.474729 seconds, 3392 images, 4.881849 hours left
+Loaded: 0.000045 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 54: 1160.783325, 974.584656 avg loss, 0.000000 rate, 1.527688 seconds, 3456 images, 4.865587 hours left
+Loaded: 0.000047 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 55: 1152.582397, 992.384399 avg loss, 0.000000 rate, 1.485243 seconds, 3520 images, 4.850652 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 56: 1148.333252, 1007.979309 avg loss, 0.000000 rate, 1.504282 seconds, 3584 images, 4.834925 hours left
+Loaded: 0.000056 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 57: 1142.162109, 1021.397583 avg loss, 0.000000 rate, 1.532012 seconds, 3648 images, 4.819772 hours left
+Loaded: 0.000045 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 58: 1140.086670, 1033.266479 avg loss, 0.000000 rate, 1.566488 seconds, 3712 images, 4.805378 hours left
+Loaded: 0.000048 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 59: 1127.346069, 1042.674438 avg loss, 0.000000 rate, 1.491890 seconds, 3776 images, 4.791884 hours left
+Loaded: 0.000046 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 60: 1118.923706, 1050.299316 avg loss, 0.000000 rate, 1.485469 seconds, 3840 images, 4.776875 hours left
+Resizing, random_coef = 1.40 
+
+ 416 x 416 
+ try to allocate additional workspace_size = 67.04 MB 
+ CUDA allocate done! 
+Loaded: 0.000060 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 61: 833.782288, 1028.647583 avg loss, 0.000000 rate, 1.224461 seconds, 3904 images, 4.761871 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 62: 833.355957, 1009.118408 avg loss, 0.000000 rate, 1.282958 seconds, 3968 images, 4.741257 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 63: 826.936035, 990.900146 avg loss, 0.000000 rate, 1.319170 seconds, 4032 images, 4.722135 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 64: 813.794434, 973.189575 avg loss, 0.000000 rate, 1.260708 seconds, 4096 images, 4.703999 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 65: 808.842712, 956.754883 avg loss, 0.000000 rate, 1.311401 seconds, 4160 images, 4.684752 hours left
+Loaded: 0.000067 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 66: 797.977661, 940.877136 avg loss, 0.000000 rate, 1.248716 seconds, 4224 images, 4.666811 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 67: 797.156128, 926.505005 avg loss, 0.000000 rate, 1.347817 seconds, 4288 images, 4.647665 hours left
+Loaded: 0.000054 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 68: 783.988831, 912.253418 avg loss, 0.000000 rate, 1.284078 seconds, 4352 images, 4.630891 hours left
+Loaded: 0.000055 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 69: 774.457336, 898.473816 avg loss, 0.000000 rate, 1.280826 seconds, 4416 images, 4.612876 hours left
+Loaded: 0.000046 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 70: 761.434937, 884.769897 avg loss, 0.000000 rate, 1.238901 seconds, 4480 images, 4.594966 hours left
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 142.39 MB 
+ CUDA allocate done! 
+Loaded: 0.000073 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 71: 1590.343994, 955.327332 avg loss, 0.000000 rate, 2.245327 seconds, 4544 images, 4.576308 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 72: 1571.293091, 1016.923889 avg loss, 0.000000 rate, 2.318246 seconds, 4608 images, 4.580000 hours left
+Loaded: 0.000054 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 73: 1541.793091, 1069.410767 avg loss, 0.000000 rate, 2.285639 seconds, 4672 images, 4.585255 hours left
+Loaded: 0.000047 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 74: 1511.830322, 1113.652710 avg loss, 0.000000 rate, 2.273950 seconds, 4736 images, 4.589732 hours left
+Loaded: 0.000057 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 75: 1488.633057, 1151.150757 avg loss, 0.000000 rate, 2.346523 seconds, 4800 images, 4.593901 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 76: 1450.440430, 1181.079712 avg loss, 0.000000 rate, 2.286486 seconds, 4864 images, 4.599620 hours left
+Loaded: 0.000055 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 77: 1422.874512, 1205.259155 avg loss, 0.000000 rate, 2.366147 seconds, 4928 images, 4.603953 hours left
+Loaded: 0.000047 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 78: 1380.950806, 1222.828369 avg loss, 0.000000 rate, 2.266578 seconds, 4992 images, 4.609990 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 79: 1345.325073, 1235.078003 avg loss, 0.000000 rate, 2.356464 seconds, 5056 images, 4.613769 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 80: 1309.133789, 1242.483643 avg loss, 0.000000 rate, 2.422947 seconds, 5120 images, 4.619482 hours left
+Resizing, random_coef = 1.40 
+
+ 384 x 384 
+ try to allocate additional workspace_size = 57.21 MB 
+ CUDA allocate done! 
+Loaded: 0.000078 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 81: 511.086212, 1169.343872 avg loss, 0.000000 rate, 1.173254 seconds, 5184 images, 4.626593 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 82: 491.256592, 1101.535156 avg loss, 0.000000 rate, 1.193779 seconds, 5248 images, 4.606138 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 83: 482.257660, 1039.607422 avg loss, 0.000000 rate, 1.208439 seconds, 5312 images, 4.586334 hours left
+Loaded: 0.000040 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 84: 463.165039, 981.963196 avg loss, 0.000000 rate, 1.162410 seconds, 5376 images, 4.567048 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 85: 447.949310, 928.561829 avg loss, 0.000000 rate, 1.196754 seconds, 5440 images, 4.546939 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 86: 428.176483, 878.523315 avg loss, 0.000000 rate, 1.165731 seconds, 5504 images, 4.527783 hours left
+Loaded: 0.000041 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 87: 419.323059, 832.603271 avg loss, 0.000000 rate, 1.193833 seconds, 5568 images, 4.508133 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 88: 401.883911, 789.531311 avg loss, 0.000000 rate, 1.194840 seconds, 5632 images, 4.489294 hours left
+Loaded: 0.000042 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 89: 386.125458, 749.190735 avg loss, 0.000000 rate, 1.173608 seconds, 5696 images, 4.470662 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 90: 366.796570, 710.951294 avg loss, 0.000000 rate, 1.154604 seconds, 5760 images, 4.451747 hours left
+Resizing, random_coef = 1.40 
+
+ 576 x 576 
+ try to allocate additional workspace_size = 127.83 MB 
+ CUDA allocate done! 
+Loaded: 0.000069 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 91: 780.508667, 717.907043 avg loss, 0.000000 rate, 2.107366 seconds, 5824 images, 4.432600 hours left
+Loaded: 0.000067 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 92: 749.616943, 721.078003 avg loss, 0.000000 rate, 2.187293 seconds, 5888 images, 4.434574 hours left
+Loaded: 0.000052 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 93: 713.804077, 720.350586 avg loss, 0.000000 rate, 2.202319 seconds, 5952 images, 4.438278 hours left
+Loaded: 0.000056 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 94: 680.171570, 716.332703 avg loss, 0.000000 rate, 2.202108 seconds, 6016 images, 4.442268 hours left
+Loaded: 0.000058 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 95: 653.825012, 710.081909 avg loss, 0.000000 rate, 2.283741 seconds, 6080 images, 4.446208 hours left
+Loaded: 0.000051 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 96: 608.105713, 699.884277 avg loss, 0.000000 rate, 2.112210 seconds, 6144 images, 4.451895 hours left
+Loaded: 0.000043 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 97: 585.807800, 688.476624 avg loss, 0.000000 rate, 2.173994 seconds, 6208 images, 4.453752 hours left
+Loaded: 0.000051 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 98: 549.616577, 674.590637 avg loss, 0.000000 rate, 2.173912 seconds, 6272 images, 4.456941 hours left
+Loaded: 0.000045 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 99: 523.512268, 659.482788 avg loss, 0.000000 rate, 2.217800 seconds, 6336 images, 4.460091 hours left
+Loaded: 0.000044 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 100: 492.747742, 642.809265 avg loss, 0.000000 rate, 2.195528 seconds, 6400 images, 4.464166 hours left
+ CUDNN_HALF=1 
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 32, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+bdd100k
+net.optimized_memory = 0 
+mini_batch = 2, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 0 K-images (0 Kilo-batches_64) 
+Learning Rate: 0.001, Momentum: 0.949, Decay: 0.0005
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+Resizing, random_coef = 1.40 
+
+ 608 x 608 
+ try to allocate additional workspace_size = 142.39 MB 
+ CUDA allocate done! 
+Loaded: 0.000071 seconds
+
+ (next mAP calculation at 2124 iterations) 
+ 1: 2071.046143, 2071.046143 avg loss, 0.000000 rate, 2.604216 seconds, 64 images, -1.000000 hours left
+ CUDNN_HALF=1 
+ Prepare additional network for mAP calculation...
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+bdd100k
+net.optimized_memory = 0 
+mini_batch = 4, batch = 64, time_steps = 1, train = 1 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
