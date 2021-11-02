@@ -1,0 +1,5 @@
+classes= 4
+train  = data/bdd100k_daytime_train_train.txt
+valid  = data/bdd100k_daytime_train_val.txt
+names = data/bdd100k.names
+backup = backup_bdd100k_daytime_train/
